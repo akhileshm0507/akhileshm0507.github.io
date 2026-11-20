@@ -321,7 +321,7 @@ footer .built{font-family:var(--mono);font-size:.72rem;color:var(--muted);margin
     <div class="kicker">Honours Physics (Co-op) · University of Waterloo</div>
     <h1><span class="ln">Akhilesh</span><span class="ln">Mahajan</span></h1>
     <p class="lead">I like figuring out how things work, especially when the answer involves telescopes, black holes, or way too much Python.</p>
-    <p class="eqn">right now that means Bayesian statistics, MCMC chains, and cosmology data</p>
+    <p class="eqn">right now that means telescope data, Bayesian statistics, and a lot of Python</p>
     <div class="cta-row" id="ctaRow"></div>
   </div>
   <div class="scroll-hint"><span class="bar"></span>scroll</div>
@@ -421,7 +421,7 @@ const PROFILE={
 
 const ABOUT=[
   "I got into physics mostly through sci-fi, honestly. <em>Interstellar</em>, <em>The Martian</em>, <em>Sunshine</em>, <em>Project Hail Mary</em>, <em>The Three-Body Problem</em> — stuff where the science isn't just background, it's the whole plot. Somewhere between that and reading <em>The Elegant Universe</em> and <em>A Brief History of Time</em> in high school, it stopped being just \"cool movies\" and turned into something I actually wanted to study.",
-  "I'm doing Honours Physics at Waterloo now, and most of what I work on is some version of trying to understand the universe with data and code instead of just equations — pulling apart telescope light curves, running MCMC chains on supernova data, that kind of thing. I still read a lot of pop-science when I have time (<em>Dark Matter</em> by Blake Crouch, <em>Seven Brief Lessons on Physics</em>, <em>Something Deeply Hidden</em>, <em>We Have No Idea</em> — that last one is criminally underrated if you like physics and jokes in the same sentence).",
+  "I'm doing Honours Physics at Waterloo now, and most of what I work on is some version of trying to understand the universe with data and code instead of just equations — pulling apart telescope light curves, that kind of thing. I still read a lot of pop-science when I have time (<em>Dark Matter</em> by Blake Crouch, <em>Seven Brief Lessons on Physics</em>, <em>Something Deeply Hidden</em>, <em>We Have No Idea</em> — that last one is criminally underrated if you like physics and jokes in the same sentence).",
   "Outside of that I played rugby and captained the team for two years, I tutor physics and math because you don't actually understand something until you've had to explain it to someone else, and I travel whenever I get the chance — usually where the best ideas show up anyway."
 ];
 
@@ -430,6 +430,7 @@ const ABOUT=[
    Fields: title, category, period, summary?, more:[paragraphs]?, bullets?, tags?, status:"in-progress"?,
            image?, eq? (an equation line), links:{github?,demo?}?, widget? (a live sim; makes the card full width) */
 const PROJECTS=[
+  /* HIDDEN until it is ready. To bring the MCMC card back, remove the comment markers around it. 
   { title:"Bayesian Cosmological Inference with MCMC", category:"Astrophysics", period:"2026", status:"in-progress",
     summary:"Constraining the expansion history of the universe from Type Ia supernovae.",
     more:[
@@ -442,6 +443,7 @@ const PROJECTS=[
       "Validating the distance-modulus model against analytic sanity checks before inference."],
     tags:["Python","emcee","Bayesian","Cosmology","NumPy"],
     links:{github:"https://github.com/akhileshm0507"} },
+  */
   { title:"TESS Exoplanet Transit Light Curve Analysis", category:"Astrophysics", period:"2026",
     summary:"An end-to-end pipeline to detect and characterize an exoplanet transit from raw NASA TESS data.",
     more:[
